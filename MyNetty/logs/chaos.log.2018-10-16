@@ -1,0 +1,222 @@
+2018-10-16 15:09:27,428 [nioEventLoopGroup-2-1] WARN  [io.netty.channel.DefaultChannelPipeline] - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1128)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:897)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2018-10-16 15:09:44,369 [nioEventLoopGroup-2-2] WARN  [io.netty.channel.DefaultChannelPipeline] - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1128)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:897)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2018-10-16 15:10:10,326 [main] INFO  [org.StringTransfer.STServer] - org.StringTransfer.STServer started and listen on /0:0:0:0:0:0:0:0:8099
+2018-10-16 15:10:16,878 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - channel init.
+2018-10-16 15:10:16,890 [main] INFO  [org.StringTransfer.STClient] - send time,2018-10-16 15:10:16
+2018-10-16 15:10:16,892 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClient] - client connected
+2018-10-16 15:10:41,715 [nioEventLoopGroup-2-2] WARN  [io.netty.channel.DefaultChannelPipeline] - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1128)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:897)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2018-10-16 15:14:55,087 [main] INFO  [org.StringTransfer.STServer] - org.StringTransfer.STServer started and listen on /0:0:0:0:0:0:0:0:8099
+2018-10-16 15:14:58,493 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - channel init.
+2018-10-16 15:14:58,504 [main] INFO  [org.StringTransfer.STClient] - send time,2018-10-16 15:14:58
+2018-10-16 15:14:58,506 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClient] - client connected
+2018-10-16 15:15:20,701 [nioEventLoopGroup-2-1] WARN  [io.netty.channel.DefaultChannelPipeline] - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1128)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:897)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2018-10-16 15:15:29,743 [main] INFO  [org.StringTransfer.STServer] - org.StringTransfer.STServer started and listen on /0:0:0:0:0:0:0:0:8099
+2018-10-16 15:15:32,804 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - channel init.
+2018-10-16 15:15:32,815 [main] INFO  [org.StringTransfer.STClient] - send time,2018-10-16 15:15:32
+2018-10-16 15:15:32,818 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClient] - client connected
+2018-10-16 15:15:32,828 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :Netty rocks!2018-10-16 15:15:322018-10-16 15:15:32stop
+2018-10-16 15:15:32,830 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - server received data :Netty rocks!2018-10-16 15:15:322018-10-16 15:15:32stop
+2018-10-16 15:15:32,831 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :Netty rocks!2018-10-16 15:15:322018-10-16 15:15:32stop
+2018-10-16 15:21:27,587 [main] INFO  [org.StringTransfer.STServer] - org.StringTransfer.STServer started and listen on /0:0:0:0:0:0:0:0:8099
+2018-10-16 15:21:31,287 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - channel init.
+2018-10-16 15:21:31,290 [main] INFO  [org.StringTransfer.STClient] - send time,2018-10-16 15:21:31
+2018-10-16 15:21:31,301 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClient] - client connected
+2018-10-16 15:21:31,311 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :Netty rocks!
+2018-10-16 15:21:31
+2018-10-16 15:21:31
+stop
+
+2018-10-16 15:21:31,314 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - server received data :Netty rocks!
+2018-10-16 15:21:31
+2018-10-16 15:21:31
+stop
+
+2018-10-16 15:21:31,315 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :Netty rocks!
+2018-10-16 15:21:31
+2018-10-16 15:21:31
+stop
+
+2018-10-16 15:22:20,851 [main] INFO  [org.StringTransfer.STServer] - org.StringTransfer.STServer started and listen on /0:0:0:0:0:0:0:0:8099
+2018-10-16 15:22:24,952 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - channel init.
+2018-10-16 15:22:24,955 [main] INFO  [org.StringTransfer.STClient] - send time,2018-10-16 15:22:24
+2018-10-16 15:22:24,969 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClient] - client connected
+2018-10-16 15:22:24,982 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :Netty rocks!
+2018-10-16 15:22:24,983 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :2018-10-16 15:22:24
+2018-10-16 15:22:24,984 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :2018-10-16 15:22:24
+2018-10-16 15:22:24,984 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :stop
+2018-10-16 15:23:02,625 [nioEventLoopGroup-2-1] WARN  [io.netty.channel.DefaultChannelPipeline] - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1128)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:897)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2018-10-16 15:23:49,540 [main] INFO  [org.StringTransfer.STServer] - org.StringTransfer.STServer started and listen on /0:0:0:0:0:0:0:0:8099
+2018-10-16 15:23:52,701 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - channel init.
+2018-10-16 15:23:52,704 [main] INFO  [org.StringTransfer.STClient] - send time,2018-10-16 15:23:52
+2018-10-16 15:23:52,715 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClient] - client connected
+2018-10-16 15:23:52,727 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :Netty rocks!
+2018-10-16 15:23:52,729 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :2018-10-16 15:23:52
+2018-10-16 15:23:52,729 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :2018-10-16 15:23:52
+2018-10-16 15:23:52,730 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :stop
+2018-10-16 15:23:52,732 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :Netty rocks!
+2018-10-16 15:23:52,733 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :2018-10-16 15:23:52
+2018-10-16 15:23:52,733 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :2018-10-16 15:23:52
+2018-10-16 15:23:52,734 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :stop
+2018-10-16 15:24:42,760 [nioEventLoopGroup-2-2] WARN  [io.netty.channel.DefaultChannelPipeline] - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1128)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:897)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2018-10-16 15:24:46,833 [main] INFO  [org.StringTransfer.STServer] - org.StringTransfer.STServer started and listen on /0:0:0:0:0:0:0:0:8099
+2018-10-16 15:24:50,206 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - channel init.
+2018-10-16 15:24:50,214 [main] INFO  [org.StringTransfer.STClient] - send time,2018-10-16 15:24:50
+2018-10-16 15:24:50,218 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClient] - client connected
+2018-10-16 15:24:50,231 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :Netty rocks!
+2018-10-16 15:24:50,232 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :2018-10-16 15:24:50
+2018-10-16 15:24:50,233 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :2018-10-16 15:24:50
+2018-10-16 15:24:50,233 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :stop
+2018-10-16 15:24:50,236 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :Netty rocks!
+2018-10-16 15:24:50,236 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :2018-10-16 15:24:50
+2018-10-16 15:24:50,237 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :2018-10-16 15:24:50
+2018-10-16 15:24:50,237 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :stop
+2018-10-16 15:33:14,935 [main] INFO  [org.StringTransfer.STServer] - org.StringTransfer.STServer started and listen on /0:0:0:0:0:0:0:0:8099
+2018-10-16 15:33:19,349 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - channel init.
+2018-10-16 15:33:19,352 [main] INFO  [org.StringTransfer.STClient] - send time,2018-10-16 15:33:19
+2018-10-16 15:33:19,363 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClient] - client connected
+2018-10-16 15:33:19,377 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :Netty rocks!
+2018-10-16 15:33:19,379 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :2018-10-16 15:33:19
+2018-10-16 15:33:19,379 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :2018-10-16 15:33:19
+2018-10-16 15:33:19,379 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :stop
+2018-10-16 15:33:19,382 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :Netty rocks!
+2018-10-16 15:33:19,382 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :2018-10-16 15:33:19
+2018-10-16 15:33:19,383 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :2018-10-16 15:33:19
+2018-10-16 15:33:19,383 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :stop
+2018-10-16 15:35:18,236 [main] INFO  [org.StringTransfer.STServer] - org.StringTransfer.STServer started and listen on 192.168.0.160
+2018-10-16 15:35:22,959 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - channel init.
+2018-10-16 15:35:22,965 [main] INFO  [org.StringTransfer.STClient] - send time,2018-10-16 15:35:22
+2018-10-16 15:35:22,973 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClient] - client connected
+2018-10-16 15:35:22,987 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :Netty rocks!
+2018-10-16 15:35:22,989 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :2018-10-16 15:35:22
+2018-10-16 15:35:22,989 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :2018-10-16 15:35:22
+2018-10-16 15:35:22,989 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :stop
+2018-10-16 15:35:22,992 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :Netty rocks!
+2018-10-16 15:35:22,993 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :2018-10-16 15:35:22
+2018-10-16 15:35:22,993 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :2018-10-16 15:35:22
+2018-10-16 15:35:22,993 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :stop
+2018-10-16 15:57:41,396 [main] INFO  [org.StringTransfer.STServer] - org.StringTransfer.STServer started and listen on 192.168.0.160
+2018-10-16 15:57:45,316 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - channel init.
+2018-10-16 15:57:45,323 [main] INFO  [org.StringTransfer.STClient] - send time,2018-10-16 15:57:45
+2018-10-16 15:57:45,329 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClient] - client connected
+2018-10-16 15:57:45,343 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :Netty rocks!
+2018-10-16 15:57:45,344 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :2018-10-16 15:57:45
+2018-10-16 15:57:45,345 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :2018-10-16 15:57:45
+2018-10-16 15:57:45,345 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :stop
+2018-10-16 15:57:45,348 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :Netty rocks!
+2018-10-16 15:57:45,348 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :2018-10-16 15:57:45
+2018-10-16 15:57:45,349 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :2018-10-16 15:57:45
+2018-10-16 15:57:45,349 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :stop
+2018-10-16 15:58:38,717 [main] INFO  [org.StringTransfer.STServer] - org.StringTransfer.STServer started and listen on 192.168.0.160
+2018-10-16 15:58:41,380 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - channel init.
+2018-10-16 15:58:41,386 [main] INFO  [org.StringTransfer.STClient] - send time,2018-10-16 15:58:41
+2018-10-16 15:58:41,394 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClient] - client connected
+2018-10-16 15:58:41,407 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :Netty rocks!
+2018-10-16 15:58:41,409 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :2018-10-16 15:58:41
+2018-10-16 15:58:41,409 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :2018-10-16 15:58:41
+2018-10-16 15:58:41,410 [nioEventLoopGroup-2-2] INFO  [org.StringTransfer.STServerHandler] - server received data :stop
+2018-10-16 15:58:41,413 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :Netty rocks!
+2018-10-16 15:58:41,413 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :2018-10-16 15:58:41
+2018-10-16 15:58:41,413 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :2018-10-16 15:58:41
+2018-10-16 15:58:41,414 [nioEventLoopGroup-2-1] INFO  [org.StringTransfer.STClientHandler] - Client received data :stop

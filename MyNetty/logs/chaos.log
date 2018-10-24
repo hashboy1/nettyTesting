@@ -1,0 +1,55 @@
+2018-10-22 08:37:28,584 [main] INFO  [org.Websocket.WebsocketServer] - org.Websocket.WebsocketServer started and listen on 192.168.0.160
+2018-10-22 08:39:44,326 [main] INFO  [org.Websocket.WebsocketServer] - org.Websocket.WebsocketServer started and listen on 192.168.0.160
+2018-10-22 08:42:27,804 [main] INFO  [org.Websocket.WebsocketServer] - org.Websocket.WebsocketServer started and listen on 192.168.0.160
+2018-10-22 09:01:57,419 [main] INFO  [org.Websocket.WebsocketServer] - org.Websocket.WebsocketServer started and listen on 192.168.0.160
+2018-10-22 09:02:00,047 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - Client:/127.0.0.1:58857在线
+2018-10-22 09:02:14,125 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - Client:/127.0.0.1:58857掉线
+2018-10-22 09:03:06,251 [main] INFO  [org.Websocket.WebsocketServer] - org.Websocket.WebsocketServer started and listen on 192.168.0.160
+2018-10-22 09:03:08,669 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - Client:/127.0.0.1:58994在线
+2018-10-22 09:07:08,635 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - Client:/127.0.0.1:58994掉线
+2018-10-22 09:07:10,103 [nioEventLoopGroup-3-2] INFO  [org.Websocket.WebsocketServerHandler] - Client:/192.168.0.160:59622在线
+2018-10-22 09:11:06,329 [main] INFO  [org.Websocket.WebsocketServer] - org.Websocket.WebsocketServer started and listen on 192.168.0.160
+2018-10-22 09:11:10,720 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - Client:/192.168.0.160:60191在线
+2018-10-22 09:13:23,498 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - Client:/192.168.0.160:60191掉线
+2018-10-22 09:13:23,525 [nioEventLoopGroup-3-2] INFO  [org.Websocket.WebsocketServerHandler] - Client:/192.168.0.160:60528在线
+2018-10-22 09:13:24,183 [nioEventLoopGroup-3-2] INFO  [org.Websocket.WebsocketServerHandler] - Client:/192.168.0.160:60528掉线
+2018-10-22 09:13:24,204 [nioEventLoopGroup-3-3] INFO  [org.Websocket.WebsocketServerHandler] - Client:/192.168.0.160:60531在线
+2018-10-22 09:13:24,409 [nioEventLoopGroup-3-3] INFO  [org.Websocket.WebsocketServerHandler] - Client:/192.168.0.160:60531掉线
+2018-10-22 09:13:24,432 [nioEventLoopGroup-3-4] INFO  [org.Websocket.WebsocketServerHandler] - Client:/192.168.0.160:60532在线
+2018-10-22 09:15:55,684 [main] INFO  [org.Websocket.WebsocketServer] - org.Websocket.WebsocketServer started and listen on 192.168.0.160
+2018-10-22 09:15:57,706 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - Client:/192.168.0.160:60859在线
+2018-10-22 09:19:57,665 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - Client:/192.168.0.160:60859掉线
+2018-10-22 09:45:41,923 [main] INFO  [org.Websocket.WebsocketServer] - org.Websocket.WebsocketServer started and listen on 192.168.0.160
+2018-10-22 09:45:44,015 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - Client:/192.168.0.160:64411在线
+2018-10-22 09:49:43,977 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - Client:/192.168.0.160:64411掉线
+2018-10-22 09:53:49,193 [nioEventLoopGroup-3-2] INFO  [org.Websocket.WebsocketServerHandler] - Client:/192.168.0.160:49286在线
+2018-10-22 09:53:49,307 [nioEventLoopGroup-3-2] INFO  [org.Websocket.WebsocketServerHandler] - HANDSHAKE_COMPLETE
+2018-10-22 09:53:49,308 [nioEventLoopGroup-3-2] INFO  [org.Websocket.WebsocketServerHandler] - io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler$HandshakeComplete@48dc2bb9
+2018-10-22 09:53:49,308 [nioEventLoopGroup-3-2] INFO  [org.Websocket.WebsocketServerHandler] - 握手完成
+2018-10-22 09:53:49,311 [nioEventLoopGroup-3-2] INFO  [org.Websocket.WebsocketServerHandler] - server received data :Server Connected
+2018-10-22 09:53:49,368 [nioEventLoopGroup-3-2] INFO  [org.Websocket.WebsocketServerHandler] - Client:/192.168.0.160:49286掉线
+2018-10-22 09:53:49,387 [nioEventLoopGroup-3-3] INFO  [org.Websocket.WebsocketServerHandler] - Client:/192.168.0.160:49287在线
+2018-10-22 09:53:49,389 [nioEventLoopGroup-3-3] INFO  [org.Websocket.WebsocketServerHandler] - HANDSHAKE_COMPLETE
+2018-10-22 09:53:49,389 [nioEventLoopGroup-3-3] INFO  [org.Websocket.WebsocketServerHandler] - io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler$HandshakeComplete@2f725e07
+2018-10-22 09:53:49,389 [nioEventLoopGroup-3-3] INFO  [org.Websocket.WebsocketServerHandler] - 握手完成
+2018-10-22 09:53:49,410 [nioEventLoopGroup-3-3] INFO  [org.Websocket.WebsocketServerHandler] - server received data :Server Connected
+2018-10-22 09:53:53,440 [nioEventLoopGroup-3-3] INFO  [org.Websocket.WebsocketServerHandler] - server received data :login:ddd
+2018-10-22 09:54:21,361 [main] INFO  [org.Websocket.WebsocketServer] - org.Websocket.WebsocketServer started and listen on 192.168.0.160
+2018-10-22 09:54:23,569 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - Client:/192.168.0.160:49384在线
+2018-10-22 09:54:23,592 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - HANDSHAKE_COMPLETE
+2018-10-22 09:54:23,592 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler$HandshakeComplete@6db74670
+2018-10-22 09:54:23,592 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - 握手完成
+2018-10-22 09:54:23,595 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - server received data :Server Connected
+2018-10-22 09:55:25,236 [main] INFO  [org.Websocket.WebsocketServer] - org.Websocket.WebsocketServer started and listen on 192.168.0.160
+2018-10-22 09:55:27,053 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - Client:/192.168.0.160:49517在线
+2018-10-22 09:55:27,075 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - HANDSHAKE_COMPLETE
+2018-10-22 09:55:27,075 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler$HandshakeComplete@6db74670
+2018-10-22 09:55:27,075 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - 握手完成
+2018-10-22 09:55:27,078 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - server received data :Server Connected
+2018-10-22 09:55:29,313 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - server received data :login:fff
+2018-10-22 10:00:15,682 [nioEventLoopGroup-3-1] INFO  [org.Websocket.WebsocketServerHandler] - Client:/192.168.0.160:49517掉线
+2018-10-22 10:00:15,705 [nioEventLoopGroup-3-2] INFO  [org.Websocket.WebsocketServerHandler] - Client:/192.168.0.160:50179在线
+2018-10-22 10:00:15,711 [nioEventLoopGroup-3-2] INFO  [org.Websocket.WebsocketServerHandler] - HANDSHAKE_COMPLETE
+2018-10-22 10:00:15,711 [nioEventLoopGroup-3-2] INFO  [org.Websocket.WebsocketServerHandler] - io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler$HandshakeComplete@174d5616
+2018-10-22 10:00:15,711 [nioEventLoopGroup-3-2] INFO  [org.Websocket.WebsocketServerHandler] - 握手完成
+2018-10-22 10:00:15,714 [nioEventLoopGroup-3-2] INFO  [org.Websocket.WebsocketServerHandler] - server received data :Server Connected

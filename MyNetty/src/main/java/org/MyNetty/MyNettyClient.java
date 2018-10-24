@@ -1,13 +1,17 @@
 package org.MyNetty;
 
-import io.netty.bootstrap.Bootstrap;  
+import io.netty.bootstrap.Bootstrap;
+import io.netty.buffer.Unpooled;
+import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;  
 import io.netty.channel.ChannelFutureListener;  
 import io.netty.channel.ChannelInitializer;  
 import io.netty.channel.EventLoopGroup;  
 import io.netty.channel.nio.NioEventLoopGroup;  
 import io.netty.channel.socket.SocketChannel;  
-import io.netty.channel.socket.nio.NioSocketChannel;  
+import io.netty.channel.socket.nio.NioSocketChannel;
+import io.netty.util.CharsetUtil;
+
 import java.net.InetSocketAddress;
 import java.text.SimpleDateFormat;  
   
@@ -49,8 +53,11 @@ public class MyNettyClient {
             }); 
             SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");   
             String currentTime= df.format(System.currentTimeMillis()); 
-            f.channel().write(currentTime);
-            f.channel().flush();
+            Channel fc=f.channel();
+            fc.writeAndFlush(Unpooled.copiedBuffer(currentTime, CharsetUtil.UTF_8));
+            fc.writeAndFlush(Unpooled.copiedBuffer(currentTime, CharsetUtil.UTF_8));
+            fc.writeAndFlush(Unpooled.copiedBuffer("stop", CharsetUtil.UTF_8));
+            System.out.println("send time,"+currentTime);
             f.channel().closeFuture().sync(); 
             f.channel().close();
         } finally {  
